@@ -96,7 +96,7 @@ with open(r_file, 'r') as read:
                 continue
             
         if opt == "REM":
-            pass
+            lines.append(f'//{command}')
         elif opt == "STRING":
             if len(command) > 65:
                 current_char = 0
