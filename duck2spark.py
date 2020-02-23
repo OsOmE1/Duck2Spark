@@ -44,7 +44,6 @@ print(banner + '\n')
 print(f'Input file: {r_file} \n')
 print(f'Output File: {w_file}')
 print(f'Generating script..')
-time.sleep(1.5)
 
 final_script = """
 #include "DigiKeyboard.h"
