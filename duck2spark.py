@@ -90,9 +90,6 @@ with open(r_file, 'r') as read:
             elif opt == "TAB":
                 lines.append('DigiKeyboard.sendKeyStroke(KEY_TAB);')
                 continue
-            elif opt == "TAB":
-                lines.append('DigiKeyboard.sendKeyStroke(KEY_TAB);')
-                continue
             
         if opt == "REM":
             lines.append(f'//{command}')
